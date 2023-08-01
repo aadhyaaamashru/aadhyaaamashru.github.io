@@ -214,22 +214,24 @@ body {
 
 /* ----------------------desc content--------------------------- */
 
+.desc-custom {
+  background-color: white;
+}
 .card-title {
 color:#ec691f
 }
 
-.desc-custom {
-  background-color: #131944;
-}
-
 .desc-header-custom h2 {
-  color: white;
+  color: black;
 }
 
 .card {
   position: relative;
-  border-radius: 50px 50px;
+  border-radius: 20px 20px;
   margin-bottom: 20px;
+  border-radius: 20px;
+  /* Change the alpha value from 0.24 to a lower value for a lighter shadow */
+  box-shadow: rgba(19, 25, 68, 2) 0px 3px 8px;
 }
 
 .card-body .svg-icon {
@@ -239,7 +241,7 @@ color:#ec691f
 }
 
 .container-svg {
-  border-radius: 50px 0px;
+  border-radius: 50px 0px  20px;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -259,7 +261,7 @@ flex-shrink: 0;
   vertical-align: middle;
 }
 
-
+/* ----------------------tm content--------------------------- */
 
 /* CSS for .tmcontainer */
 .tmcontainer {
