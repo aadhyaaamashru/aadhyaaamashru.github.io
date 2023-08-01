@@ -234,6 +234,7 @@ color:#ec691f
   box-shadow: rgba(19, 25, 68, 2) 0px 3px 8px;
 }
 
+
 .card-body .svg-icon {
   position: absolute;
   bottom: 26px;
@@ -262,6 +263,12 @@ flex-shrink: 0;
 }
 
 /* ----------------------tm content--------------------------- */
+
+.tmcontent {
+  padding: 50px 0;
+  /* background:linear-gradient(to bottom,#61657E 10%,30%,white); */
+background: #f3f6ff;
+}
 
 /* CSS for .tmcontainer */
 .tmcontainer {
@@ -308,8 +315,8 @@ flex-shrink: 0;
 }
 
 .tmcontent .single-item {
-  background: #131944;
-  color: white;
+  background: white;
+  color: black;
   padding: 15px;
   margin: 50px 15px;
   border-radius: 50px 0px;
